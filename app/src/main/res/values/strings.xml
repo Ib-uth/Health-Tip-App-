@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">Health Tips App</string>
+
+    <string name="tip1">Eat a healthy diet</string>
+    <string name="tip2">Consume less salt and sugar</string>
+    <string name="tip3">Reduce intake of harmful fats</string>
+
+    <string name="tip4">Avoid harmful use of alcohol</string>
+    <string name="tip5">Don’t smoke</string>
+    <string name="tip6">Be Active</string>
+
+    <string name="tip7">Check your blood pressure regularly</string>
+</resources>
