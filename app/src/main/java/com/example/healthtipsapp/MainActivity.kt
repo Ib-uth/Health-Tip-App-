@@ -114,6 +114,17 @@ fun HealthTipImageText(image: Int, caption: Int) {
         .padding(15.dp)
         .fillMaxWidth(),
         horizontalAlignment = Alignment.CenterHorizontally) {
+        Text(
+            text = "Welcome To Health Tips App",
+            style = TextStyle(color = Color.Magenta,
+                fontSize = 30.sp,
+                fontStyle = FontStyle.Italic,
+                fontWeight = FontWeight.W800),
+
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(top = 10.dp, start = 40.dp, end = 40.dp)
+        )
         Box(
             modifier = Modifier
                 .heightIn(500.dp, 530.dp)
@@ -128,7 +139,7 @@ fun HealthTipImageText(image: Int, caption: Int) {
             )
             Text(
                 text = stringResource(caption),
-                style = TextStyle(color = Color.Red,
+                style = TextStyle(color = Color.Magenta,
                     fontSize = 25.sp,
                     fontStyle = FontStyle.Italic,
                 background = Color.White,
